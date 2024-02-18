@@ -69,6 +69,7 @@ table {
 
 }
 
+
 /* .molle-regular-italic {
     font-family: "Molle", cursive;
     font-weight: 400;
@@ -103,14 +104,38 @@ table {
 
 h1, h2, h3, h4{
   font-family: var(--header-font);
+  display: block;
 
 }
 
 nav, a, form, q{
   font-family: var(--p-font);
+  display: block;
 }
 
 /*Header Styles */
 header{
-  background-color: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(85,188,213,1) 30%);
+  width: 100%;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(3, 1fr); */
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(85,188,213,1) 79%);
 }
+
+
+
+a{
+  display: block;
+}
+
+
+/* Hidden content but still accessible  */
+.sr-only {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  }
