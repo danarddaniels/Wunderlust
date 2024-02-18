@@ -69,6 +69,10 @@ table {
 
 }
 
+body{
+  position: absolute;
+  
+}
 
 /* .molle-regular-italic {
     font-family: "Molle", cursive;
@@ -115,12 +119,18 @@ nav, a, form, q{
 
 /*Header Styles */
 header{
-  width: 100%;
-  display:grid;
-  grid-template-columns: repeat(2, 1fr);
-  /* grid-template-rows: repeat(3, 1fr); */
+  /* width: 100%; */
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(85,188,213,1) 79%);
+  padding: 1rem;
+}
+
+header nav{
+  position: absolute;
+  left: 300px;
 }
 
 
