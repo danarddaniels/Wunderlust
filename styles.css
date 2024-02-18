@@ -101,3 +101,16 @@ table {
 	height: auto;
 }
 
+h1, h2, h3, h4{
+  font-family: var(--header-font);
+
+}
+
+nav, a, form, q{
+  font-family: var(--p-font);
+}
+
+/*Header Styles */
+header{
+  background-color: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(85,188,213,1) 30%);
+}
