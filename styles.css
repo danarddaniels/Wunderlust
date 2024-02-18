@@ -48,6 +48,26 @@ table {
 	border-spacing: 0;
 }
 
+/* import from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Molle&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Variables */
+
+:root{
+    /* colors */
+    --black: #222222;
+    --white: #FFFFFF;
+    --blue: #499BD2;
+    --teal: #55BCD5;
+    --purple: #9B26B0;
+    --yellow: #F6D64A;
+    --gray: #EAEAEA;
+    /* fonts */
+
+}
+
+
+
 /* ----------------------------------------------------------------- */
 /* ----- SKIP LINK STYLES ----- */
 #skip{
@@ -64,3 +84,4 @@ table {
 	width: auto;
 	height: auto;
 }
+
